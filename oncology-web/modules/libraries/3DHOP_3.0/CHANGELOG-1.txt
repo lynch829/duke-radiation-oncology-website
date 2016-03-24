@@ -1,0 +1,48 @@
+3D Heritage Online Presenter - CHANGELOG FILE
+
+3DHOP by Visual Computing Laboratory - ISTI - CNR [http://vcg.isti.cnr.it]
+
+Contact Us           [info@3dhop.net]
+
+Marco Callieri       [marco.callieri@isti.cnr.it]
+Massimiliano Corsini [massimiliano.corsini@isti.cnr.it]
+Matteo Dellepiane    [matteo.dellepiane@isti.cnr.it]
+Marco Potenziani     [marco.potenziani@isti.cnr.it]
+
+06 Jul 2015
+
+VERSION 3.0
+
+ * --------- Main Changes -----------
+ * + Added RENDERING and DATA STREAMING parallelization;
+ * + Added INSTANCE SOLID COLOR and TRANSPARENCY features;
+ * + Added MEASUREMENT TOOL;
+ * + Added "BY NAME" functions for visibility, solid color and transparency;
+ * + Added multiresolution COMPRESSED MESHES support;
+ * + Added POINT CLOUDS multiresolution data support;
+ * = Updated RENDERING and DATA STREAMING system;
+ * + Added patch for Nexus support on SAFARI browser;
+ * + Fixed ZOOM bug and added view distance limits in sphere trackball;
+ * + Added MULTITOUCH(*) zoom control;
+ * = Updated TOUCH(*) controls and tap highlight effect;
+ * = Updated CURSOR behavior;
+ * = Updated WATERMARK position;
+ * + Added new TOOLBAR button icons set;
+
+ * --------- Files Added/Modified -----------
+ * + Added "meshcoder_worker.js" file;
+ * = Updated "nexus.js" file;
+ * = Updated "gargo.nxs" file;
+ * = Updated "docs.html" file;
+ * + Added "HOWTO_3.1_trackball_setting.html" file;
+ * + Added "HOWTO_8.0_measurement_tool.html" file;
+ * = Updated all howtos ".html" files;
+ * = Updated all trackballs ".html" files;
+ * = Updated all trackballs ".js" files;
+ * = Updated "spidergl.js" file;
+ * = Updated "presenter.js" file;
+ * = Updated "init.js" file;
+ * = Updated "3dhop.css" file;
+ * + Updated "skins" directory;
+
+(*) Touch Events are a "W3C Recommendation Draft" (not a standard), so are not supported by all the browsers. At the time of this publication Touch Events are fully supported by Google Chrome and Opera, supported but not activate by default on Mozilla Firefox, and partially supported (via Pointer Events) by Microsoft Explorer.

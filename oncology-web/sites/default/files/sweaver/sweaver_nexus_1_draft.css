@@ -1,0 +1,27 @@
+li div {
+  font-family: 'Trebuchet',Helvetica,Sans-Serif;
+  font-size: 11px;
+  line-height: 25px;
+  color: #424242;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: none;
+  text-align: left;
+  background-position: 0% 0%;
+}
+
+.views-field-title {
+  font-size: 12px;
+}
+
+h1 {
+  font-family: 'Lucida Sans','Lucida Grande',Sans-Serif;
+  font-style: normal;
+  text-decoration: none;
+  background-position: 50% 50%;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+
